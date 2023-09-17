@@ -6,8 +6,8 @@ void cv1(){
 
 void cv2(){
   char a;
-  scanf("%c", &a);
-  printf("%c", a);
+  a = getchar();
+  putchar(a);
 }
 
 void cv3(){
